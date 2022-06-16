@@ -27,11 +27,11 @@ async def cancel(event):
 async def start(event):
   await event.reply("Hi I'm @ZirveUserTagbot I was created to search all contacts in chat.\nMerhaba! Grubunuzdaki Kullanıcıları Etiketlemek İçin Yaratıldım. Beni Grubunuza Ekleyin ve Gerisini Bana Bırakın.",
                     buttons=(
-                      [Button.url('➕Beni Bir Gruba Ekle➕', 'http://t.me/ZirveUserTagbot?startgroup=a'),],
-                      [ Button.url('🔥Grup', 'https://t.me/SohbetZirve'),],
+                      [Button.url('➕Beni Bir Gruba Ekle➕', 'http://t.me/ElectraTaggerBot?startgroup=a'),],
+                      [ Button.url('🔥Grup', 'https://t.me/SohbetGaribanlarTr'),],
                       [ Button.url('🔥sahip ', 'https://t.me/magandasahip'),],
-                      [  Button.url('🔥Music botu ', 'https://t.me/YoutbeMusicFilm_bot'),],
-                     [ Button.url('📣resmi kanal', 'https://t.me/ZirveUserTagDestek')]
+                      [  Button.url('🔥Reklam ', 'https://t.me/magandasahip'),],
+                     [ Button.url('📣resmi kanal', 'https://t.me/electraresmi')]
                     ),
                     link_preview=False
                    )
@@ -44,9 +44,9 @@ async def help(event):
 ❕ Yalnızca yöneticileri bu komutları kullanabilir."""
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/ZirveUserTagbot?startgroup=a'),
-                       Button.url('🎛️Grup', 'https://t.me/SohbetZirve'),
-                      Button.url('📣resmi kanal', 'https://t.me/ZirveUserTagDestek')]
+                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/ElectraTaggerbot?startgroup=a'),
+                       Button.url('🎛️Grup', 'https://t.me/SohbetGaribanlarTr'),
+                      Button.url('📣resmi kanal', 'https://t.me/ElectraResmi')]
                     ),
                     link_preview=False
                    )    
@@ -178,5 +178,5 @@ async def mentionalladmin(event):
     return await event.respond("__Bu komut gruplarda ve kanallarda kullanılabilir.!__")
   
 
-print(">> Bot çalıyor merak etme 👮‍♂️ @baykaoss bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 👮‍♂️ @magandasahip bilgi alabilirsin <<")
 client.run_until_disconnected()
