@@ -12,7 +12,7 @@ LOGGER = logging.getLogger(__name__)
 
 api_id = int(os.environ.get("9316256"))
 api_hash = os.environ.get("5a8a277605c3038129c536a9e79cd761")
-bot_token = os.environ.get("5934962838:AAE1C7tfcQVNCIqT9T5eW0-56glvKJr-iXs")
+bot_token = os.environ.get("5782608662:AAGnlO_CMsMtrd7M2NCw3NkLUMXZ4CLVn1o")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 anlik_calisan = []
@@ -27,7 +27,7 @@ async def cancel(event):
 async def start(event):
   await event.reply("Hi I'm @Merdoobeyims I was created to search all contacts in chat.\nMerhaba! Grubunuzdaki Kullanıcıları Etiketlemek İçin Yaratıldım. Beni Grubunuza Ekleyin ve Gerisini Bana Bırakın.",
                     buttons=(
-                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/TaggerKAOS_bot?startgroup=a'),],
+                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/KaosTagger_bot?startgroup=a'),],
                       [ Button.url('🔥Grup', 'https://t.me/ChatKaos'),],
                       [ Button.url('🔥sahip ', 'https://t.me/Merdoobeyims'),],
                       [  Button.url('🔥Reklam ', 'https://t.me/Merdoobeyims'),],
