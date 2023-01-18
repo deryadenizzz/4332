@@ -25,7 +25,7 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("Hi I'm @ElectraTagger I was created to search all contacts in chat.\nMerhaba! Grubunuzdaki Kullanıcıları Etiketlemek İçin Yaratıldım. Beni Grubunuza Ekleyin ve Gerisini Bana Bırakın.",
+  await event.reply("Hi I'm @Merdoobeyims I was created to search all contacts in chat.\nMerhaba! Grubunuzdaki Kullanıcıları Etiketlemek İçin Yaratıldım. Beni Grubunuza Ekleyin ve Gerisini Bana Bırakın.",
                     buttons=(
                       [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/TaggerKAOS_bot?startgroup=a'),],
                       [ Button.url('🔥Grup', 'https://t.me/ChatKaos'),],
