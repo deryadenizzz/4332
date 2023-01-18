@@ -10,9 +10,9 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-api_id = int(os.environ.get("APP_ID"))
-api_hash = os.environ.get("API_HASH")
-bot_token = os.environ.get("TOKEN")
+api_id = int(os.environ.get("9316256"))
+api_hash = os.environ.get("5a8a277605c3038129c536a9e79cd761")
+bot_token = os.environ.get("5934962838:AAE1C7tfcQVNCIqT9T5eW0-56glvKJr-iXs")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 anlik_calisan = []
@@ -27,11 +27,11 @@ async def cancel(event):
 async def start(event):
   await event.reply("Hi I'm @ElectraTagger I was created to search all contacts in chat.\nMerhaba! Grubunuzdaki Kullanıcıları Etiketlemek İçin Yaratıldım. Beni Grubunuza Ekleyin ve Gerisini Bana Bırakın.",
                     buttons=(
-                      [Button.url('➕Beni Bir Gruba Ekle➕', 'http://t.me/ElectraTaggerBot?startgroup=a'),],
-                      [ Button.url('🔥Grup', 'https://t.me/SohbetGaribanlarTr'),],
-                      [ Button.url('🔥sahip ', 'https://t.me/magandasahip'),],
-                      [  Button.url('🔥Reklam ', 'https://t.me/magandasahip'),],
-                     [ Button.url('📣resmi kanal', 'https://t.me/electraresmi')]
+                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/TaggerKAOS_bot?startgroup=a'),],
+                      [ Button.url('🔥Grup', 'https://t.me/ChatKaos'),],
+                      [ Button.url('🔥sahip ', 'https://t.me/Merdoobeyims'),],
+                      [  Button.url('🔥Reklam ', 'https://t.me/Merdoobeyims'),],
+                     [ Button.url('📣resmi kanal', 'https://t.me/merdoobeyimskanal')]
                     ),
                     link_preview=False
                    )
@@ -44,9 +44,9 @@ async def help(event):
 ❕ Yalnızca yöneticileri bu komutları kullanabilir."""
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/ElectraTaggerbot?startgroup=a'),
-                       Button.url('🎛️Grup', 'https://t.me/SohbetGaribanlarTr'),
-                      Button.url('📣resmi kanal', 'https://t.me/ElectraResmi')]
+                      [Button.url('➕Beni Bir Gruba Ekle➕', 'https://t.me/TaggerKAOS_bot?startgroup=a'),
+                       Button.url('🎛️Grup', 'https://t.me/ChatKaos'),
+                      Button.url('📣resmi kanal', 'https://t.me/merdoobeyimskanal')]
                     ),
                     link_preview=False
                    )    
@@ -178,5 +178,5 @@ async def mentionalladmin(event):
     return await event.respond("__Bu komut gruplarda ve kanallarda kullanılabilir.!__")
   
 
-print(">> Bot çalıyor merak etme 👮‍♂️ @magandasahip bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 👮‍♂️ @Merdoobeyims bilgi alabilirsin <<")
 client.run_until_disconnected()
