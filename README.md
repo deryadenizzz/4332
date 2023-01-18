@@ -12,6 +12,6 @@ _**Bu bot, gruplarda 10.000'e kadar üyeden bahsedebilir ve kanallarda 200'e kad
 
 ### 🎯 Krediler ve Diğer
 - [Maho Ağa](https://github.com/feritturgut23) Developer 👨‍💻
-- [Mami Bey](https://github.com/feritturgut23) Proje yardımcısı 👨‍💻
+- [Mami Bey](https://github.com/merdoobeyims/4332) Proje yardımcısı 👨‍💻
 
 **Github'da bizi takip etmeyi unutmayınız.✌️**
